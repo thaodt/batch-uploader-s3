@@ -1,0 +1,35 @@
+{
+  "name": "uploader-api",
+  "version": "1.0.0",
+  "description": "batch uploader rest apis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thaodt/uploader-api.git"
+  },
+  "keywords": [
+    "aws-s3",
+    "restful",
+    "mongodb",
+    "mongoose",
+    "nodejs"
+  ],
+  "author": "thaodt",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.496.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.26",
+    "mongoose": "^5.6.5",
+    "node-uuid": "^1.4.8",
+    "swagger-ui-express": "^4.0.7",
+    "sync-request": "^6.1.0"
+  }
+}
